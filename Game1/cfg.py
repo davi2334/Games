@@ -4,9 +4,9 @@ import os
 
 # FPS
 FPS = 100
-# 屏幕大小
+# Tamanho da tela
 SCREENSIZE = (640, 480)
-# 游戏图片路径
+# Caminho da imagem do jogo
 IMAGE_PATHS = {
                 'rabbit': os.path.join(os.getcwd(), 'resources/images/dude.png'),
                 'grass': os.path.join(os.getcwd(), 'resources/images/grass.png'),
@@ -18,7 +18,7 @@ IMAGE_PATHS = {
                 'gameover': os.path.join(os.getcwd(), 'resources/images/gameover.png'),
                 'youwin': os.path.join(os.getcwd(), 'resources/images/youwin.png')
             }
-# 游戏声音路径
+# Caminho do som do jogo
 SOUNDS_PATHS = {
                 'hit': os.path.join(os.getcwd(), 'resources/audio/explode.wav'),
                 'enemy': os.path.join(os.getcwd(), 'resources/audio/enemy.wav'),
